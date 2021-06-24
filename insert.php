@@ -35,8 +35,8 @@
 
 <body>
 	<div class="contenedor">
-		<h2>INSERTAR NUEVOS REGISTROS ➕</h2>
-		<form action="" method="post">
+		<h2>INSERTAR REGISTRO ➕</h2>
+		<form action="" method="post" style="margin-bottom:360px;">
 			<div class="form-group">
 				<input type="text" name="nombre" placeholder="Nombre" class="input__text">
 				<input type="text" name="apellido" placeholder="Apellido" class="input__text">
@@ -51,6 +51,6 @@
 		</form>
 	</div>
 </body>
-<br><br><br><br><br><br><br><br><br><br><br>
+
 
 <?php include_once './layouts/footer.php'; ?>

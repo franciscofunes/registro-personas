@@ -52,8 +52,8 @@
 
 <body>
 	<div class="contenedor">
-		<h2>ACTUALIZACIÓN INFORMACIÓN ✏️</h2>
-		<form action="" method="post">
+		<h2>ACTUALIZAR ✏️</h2>
+		<form action="" method="post" style="margin-bottom:360px;">
 			<div class="form-group">
 				<input type="text" name="nombre" value="<?php if($resultado) echo $resultado['nombre']; ?>" class="input__text">
 				<input type="text" name="apellido" value="<?php if($resultado) echo $resultado['apellido']; ?>" class="input__text">
@@ -61,13 +61,13 @@
 			<div class="form-group">
 				<input type="text" name="telefono" value="<?php if($resultado) echo $resultado['telefono']; ?>" class="input__text">
 			</div>
-			<div class="btn__group">
+			<div class="btn__group" >
 				<a href="index.php" class="btn btn__danger">Cancelar</a>
 				<input type="submit" name="guardar" value="Guardar" class="btn btn__primary">
 			</div>
 		</form>
 	</div>
 </body>
-<br><br><br><br><br><br><br><br><br><br><br>
+
 
 <?php include_once './layouts/footer.php'; ?>
