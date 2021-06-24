@@ -31,7 +31,7 @@
 
 
 <body>
-	<div class="contenedor">
+	<div class="contenedor" >
 		<h2>REGISTRO DE PARTICIPANTES 📝</h2>
 		<div class="barra__buscador">
 			<form action="" class="formulario" method="post">
@@ -41,8 +41,8 @@
 				<a href="insert.php" class="btn btn__nuevo">Nuevo <i class="bi bi-plus-circle"></i></a>
 			</form>
 		</div>
-		<div style="overflow-x:auto;">
-			<table>
+		<div style="overflow-x:auto;margin-bottom:300px;">
+			<table >
 				<tr class="head">
 					<td>#ID</td>
 					<td>Nombre</td>
@@ -64,6 +64,6 @@
 		</div>
 	</div>
 </body>
-<br><br><br><br><br><br><br>
+
 
 <?php include_once './layouts/footer.php'; ?>
