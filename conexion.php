@@ -2,17 +2,13 @@
 
 
 	//localhost
-	//$host= 'localhost';
-	//$db="desa";
-	//$user='root';
-	//$pass='';
-	//$charset= 'utf8mb4';
-	//remote host
-	$host= 'remotemysql.com';
-	$db="tLhpxUt2uu";
-	$user='tLhpxUt2uu';
-	$pass='CaL5EXZTw6';
+	$host= 'localhost';
+	$db="desa";
+	$user='root';
+	$pass='';
 	$charset= 'utf8mb4';
+	
+
 
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
