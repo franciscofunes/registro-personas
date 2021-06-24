@@ -28,7 +28,8 @@ h2 {
 	font-size: 20px;
 	font-family: 'Arial', sans-serif;
 	font-weight: bold;
-	color: #555;
+	color: rgb(0, 0, 0);
+	text-shadow: 2px 2px 4px #474743;
 }
 
 .barra__buscador {
@@ -191,6 +192,10 @@ table tr td {
 		rgba(75, 71, 71, 1) 100%
 	);
 	position: relative;
+}
+
+.nav-title {
+	text-shadow: 2px 2px 4px #2c2a2c;
 }
 
 .nav > .nav-header {

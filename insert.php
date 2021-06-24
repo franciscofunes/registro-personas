@@ -18,7 +18,7 @@
 					':nombre' =>$nombre,
 					':apellido' =>$apellido,
 					':telefono' =>$telefono
-				));
+				));				
 				header('Location: index.php');
 			}
 		}else{
