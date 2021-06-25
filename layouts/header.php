@@ -20,8 +20,7 @@
         <span></span>
         <span></span>
       </label>
-    </div>
-    
+    </div>    
     <div class="nav-links">
       <a href="index.php">Inicio</a>
       <a href="integrantes.php">Equipo</a>

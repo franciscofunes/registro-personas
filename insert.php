@@ -34,9 +34,9 @@
 
 
 <body>
-	<div class="contenedor">
+	<div class="contenedor" style="margin-top:50px;">
 		<h2>INSERTAR REGISTRO ➕</h2>
-		<form action="" method="post" style="margin-bottom:360px;">
+		<form action="" method="post" style="margin:30px 0px 13em 0px;">
 			<div class="form-group">
 				<input type="text" name="nombre" placeholder="Nombre" class="input__text">
 				<input type="text" name="apellido" placeholder="Apellido" class="input__text">
