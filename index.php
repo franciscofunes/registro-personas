@@ -1,9 +1,7 @@
 <?php
 	$title = 'Inicio';
 	include_once 'conexion.php';
-	include_once './layouts/header.php';
-	
-	
+	include_once './layouts/header.php';	
 
 	$sentencia_select=$con->prepare('SELECT * FROM clientes ORDER BY id ASC');
 	$sentencia_select->execute();
